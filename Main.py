@@ -11,7 +11,7 @@ import easygui as eg
 
 class WebUtility:
     def __init__(self, root):
-        root.title("Ankit's WebUtils App")
+        root.title("WebUtils App")
 
         f = Frame(root,bg= "#001112")
         f.pack(expand =True,fill=BOTH)
