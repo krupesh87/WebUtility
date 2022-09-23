@@ -106,7 +106,7 @@ if __name__ == "__main__":
     root = tk.Tk()
     root.geometry("900x550+300+100")
     # root.iconbitmap('img/browser.ico')
-    img = PhotoImage(file='C:/ANKIT/Ankit python/WebUtils/img/browser2.png')
+    img = PhotoImage(file='C:/ python/WebUtils/img/browser2.png')
     root.tk.call('wm', 'iconphoto', root._w, img)
     root.resizable(0,0)
     app = WebUtility(root)
