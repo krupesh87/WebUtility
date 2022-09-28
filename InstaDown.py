@@ -9,7 +9,7 @@ from PIL import Image,ImageTk
 class InstaDown:
     def __init__(self, root):
         
-        root.title("Ankit's WebBlock App")
+        root.title("WebBlock App")
 
         frame = Frame(root,bg ='black')
         frame.pack(expand=True , fill =BOTH)
