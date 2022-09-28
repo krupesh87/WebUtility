@@ -34,7 +34,7 @@ def generate():
 class PassGen:
     def __init__(self, root):
         
-        root.title("Ankit's Password Generator App")
+        root.title("Password Generator App")
 
         frame = Frame(root,bg ='black')
         frame.pack(expand=True , fill =BOTH)
